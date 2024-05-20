@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="main.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Article preview component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <section class="wrapper">
+      <div class="card">
+        <div class="image-container">
+          <img
+            src="/images/drawers.jpg"
+            alt="drawers"
+            class="card-image"
+            width="350px"
+            height="280px"
+          />
+        </div>
+        <div class="card-content manrope-font">
+          <h1 class="title manrope-font-weight-700">
+            Shift the overall look and feel by adding these wonderful touches to
+            furniture in your home
+          </h1>
+          <p class="description manrope-font-weight-500">
+            Ever been in a room and felt like something was missing? Perhaps it
+            felt slightly bare and uninviting. I've got some simple tips to help
+            you make any room feel complete.
+          </p>
+          <div class="profile-container">
+            <div class="profile">
+              <img
+                src="/images/avatar-michelle.jpg"
+                alt="avatar"
+                width="44px"
+                height="44px"
+                class="avatar"
+              />
+              <div class="about-avatar">
+                <p class="manrope-font-weight-700 name">Michelle Appleton</p>
+                <p class="date">28 Jun 2020</p>
+              </div>
+            </div>
+            <div class="share-button  share-button-bg-color">
+              <div class="share-icon-container" id="share-icon-container" >
+                <img
+                  width="18.25px"
+                  height="16.5px"
+                  src="images/icon-share.svg"
+                  alt="share-icon"
+                  class="share-icon"
+                />
+              </div>
+              <div class="down-arrow" id="down-arrow"></div>
+              <div class="share-tooltip" id="share-tooltip">
+                <div class="share-icons">
+                  <p class="SHARE">SHARE</p>
+                  <img
+                    width="24px"
+                    height="24px"
+                    src="images/icon-facebook.svg"
+                    alt="facebook"
+                  />
+                  <img
+                    width="24px"
+                    height="24px"
+                    src="images/icon-twitter.svg"
+                    alt="twitter"
+                  />
+                  <img
+                    width="24px"
+                    height="24px"
+                    src="images/icon-pinterest.svg"
+                    alt="pinterest"
+                  />
+                </div>
+                <div
+                  class="share-button-inside-tooltip share-button-inside-tooltip-bg-color" id="share-button-inside-tooltip"
+                >
+                  <img
+                    width="18.25px"
+                    height="16.5px"
+                    src="images/icon-share-white.svg"
+                    alt="share-icon"
+                    class="share-icon"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="attribution manrope-font">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Segiterio</a>.
+    </div>
+
+    <script src="index.js"></script>
+    <noscript> You have to enable javaScript for interaction </noscript>
+  </body>
+</html>
